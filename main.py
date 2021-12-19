@@ -17,7 +17,7 @@ def update_config():
         json.dump(config, write_file)
 
 try:
-    token = dotenv_values(".env")["2078172359:AAHIjsYW29Vc64Et1IDz94Hjr14qrH7RKxs"]
+    token = dotenv_values(".env")["5094634858:AAGbF1OCcHv4TjeWBccWvq9v--ogxGAXV28"]
 except:
     token = os.environ['TELEGRAM_TOKEN']
 
